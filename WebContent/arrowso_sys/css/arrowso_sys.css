@@ -1,0 +1,81 @@
+body{
+	margin:0px;
+}
+.page-wrap{
+	background: #c7e7c7;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+	min-width:1000px;
+}
+.center-panel{
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+}
+.login-panel{
+	width:400px;
+	height:300px;
+	background-color:white;
+}
+.login-panel>div{
+	width:100%;
+	box-sizing: border-box;
+}
+.login-panel-top{
+	height:80px;
+	background-color:#66cee6;
+}
+.login-panel-middle{
+	height:140px;
+	background-color:#efd6da;
+}
+.login-panel-bottom{
+	height:80px;
+	background-color:#92a3a7;
+}
+.login-input-wrap{
+	height: 50px;
+    width: 300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 15px 0px;
+}
+.login-input-wrap .login-label{
+	width:80px;
+}
+.login-input-wrap > div{
+	float:left;
+}
+.login-input-wrap .login-input{
+	border:none;
+	height: 30px;
+    width: 200px
+}
+.login-btn-wrap{
+	width:250px;
+	margin:0px auto;
+	padding-top:15px;
+}
+.btn-lg{
+	border: none;
+    background-color: #56bbd2;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+}
+.btn-lg:hover{
+	 background-color: #66cee6;
+}
+.login-btn{
+	float:left;
+}
+.clear-btn{
+	float:right;
+}
