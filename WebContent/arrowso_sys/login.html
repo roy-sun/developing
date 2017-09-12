@@ -4,25 +4,26 @@
 		<title>Login Arrowso</title>
 		<meta charset="UTF-8">
 		<link type="text/css" rel="stylesheet" href="css/arrowso_sys.css">
+		<script type="text/javascript" src="js/arrowso_sys.js"></script>
 	</head>
 	<body>
 		<div class="page-wrap">
 			<div class="center-panel login-panel">
 				<div class="login-panel-top">
-					
+					<div class="login-title">Arrowso System</div>
 				</div>
 				<div class="login-panel-middle">
 					<div class="login-input-wrap">
-						<div class="login-label">Name:</div><input type="text" class="login-input"/>
+						<div class="login-label">Name:</div><input type="text" class="login-input" id="login-user-name"/>
 					</div>
 					<div class="login-input-wrap">
-						<div class="login-label">Password:</div><input type="password" class="login-input"/>
+						<div class="login-label">Password:</div><input type="password" class="login-input" id="login-user-pwd"/>
 					</div>
 				</div>
 				<div class="login-panel-bottom">
 					<div class="login-btn-wrap">
-						<button class="btn-lg login-btn">Login</button>
-						<button class="btn-lg clear-btn">Clear</button>
+						<button class="btn-lg login-btn" id="login-btn">Login</button>
+						<button class="btn-lg clear-btn" id="clear-login-input-btn">Clear</button>
 					</div>
 				</div>
 			</div>

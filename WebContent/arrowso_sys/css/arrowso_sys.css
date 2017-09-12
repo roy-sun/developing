@@ -1,5 +1,9 @@
-body{
+body,ul{
 	margin:0px;
+	padding:0px;
+}
+ul{
+	list-style: none;
 }
 .page-wrap{
 	background: #c7e7c7;
@@ -46,7 +50,7 @@ body{
     padding: 15px 0px;
 }
 .login-input-wrap .login-label{
-	width:80px;
+	width:90px;
 }
 .login-input-wrap > div{
 	float:left;
@@ -78,4 +82,33 @@ body{
 }
 .clear-btn{
 	float:right;
+}
+.login-title{
+	line-height: 80px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+.left-menu-wrap{
+	position: fixed;
+    width: 180px;
+    background-color: #8dcaf5;
+    top: 0;
+    bottom: 0;
+    height: auto;
+}
+.left-menu-header{
+    height: 150px;
+    background-color: #b7b6b6;
+}
+.left-menu>ul>li{
+	text-align:center;
+	height: 50px;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+}
+.left-menu>ul>li:hover{
+	background-color: #8cedf7;
 }
